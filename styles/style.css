@@ -90,7 +90,7 @@ nav li {
 
 }
 
-.feature-details {
+.quick-details {
     margin-left: 60px;
     margin-top: 125px;
 }
@@ -126,4 +126,178 @@ nav li {
     color: #FFFFFF;
     padding: 12px;
     border: none;
+}
+
+/*--features love and enjoy--version..section---*/
+.feature-section {
+    display: flex;
+    padding: 25px 120px 25px 120px;
+}
+
+.features {
+    margin-right: 30px;
+}
+
+.feature-title,
+.fact-title {
+    font-weight: 700;
+    font-size: 38px;
+    color: #131313;
+    margin-right: 120px;
+
+}
+
+.feature-paragraph {
+    font-weight: 400;
+    font-size: 13px;
+    color: #727272;
+    margin-right: 30px;
+
+}
+
+.feature-sub-title {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.feature {
+    font-weight: 600;
+    font-size: 15px;
+    color: #131313;
+    margin-bottom: 8px;
+
+
+}
+
+.image-women {
+    border-radius: 8px;
+    margin-left: 60px;
+}
+
+.btn-experience {
+    width: 190px;
+    height: 100px;
+    background: #FF900E;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 5px;
+    border: none;
+
+}
+
+.year {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/*----fact parts----*/
+.facts {
+    padding: 25px 120px 25px 120px;
+}
+
+.fact-title {
+    margin-bottom: 15px;
+}
+
+.fact-paragraph {
+    font-weight: 400;
+    font-size: 13px;
+    color: #727272;
+    margin-right: 520px;
+    padding-top: 0;
+    margin-bottom: 70px;
+}
+
+/*----award sections and client related---*/
+.award-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.awards {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 200px;
+
+}
+
+.awards img {
+    text-align: center;
+    padding-left: 75px;
+    padding-top: 15px;
+}
+
+.numbers {
+    font-weight: 600;
+    font-size: 30px;
+    color: #424242;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.award-title {
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    color: #727272;
+    margin-top: 5px;
+}
+
+/*--footer parts start from here--*/
+.footer {
+    padding: 50px 120px 50px 120px;
+}
+
+
+
+.footer-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    color: #131313;
+    margin-left: 400px;
+    margin-bottom: 20px;
+
+}
+
+.footer-paragraph {
+    font-weight: 400;
+    font-size: 13px;
+    color: #727272;
+    margin-top: 0;
+    margin-bottom: 50px;
+    margin-left: 300px;
+    margin-right: 220px;
+}
+
+.sponsor-name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sponsor-image {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    margin-bottom: 100px;
+}
+
+.copy-right {
+    background: #FFF4E7;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+
+    font-weight: 400;
+    font-size: 12px;
+    color: #424242;
+
 }
