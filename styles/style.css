@@ -1,6 +1,11 @@
+/*-----font family added here--*/
+
 * {
     font-family: 'Work Sans', sans-serif;
 }
+
+
+/*-----screen max width added here--*/
 
 body {
     max-width: 1250px;
@@ -8,6 +13,8 @@ body {
     width: 100%;
     padding: 0 25px;
 }
+
+/*-----Header parts started from here--*/
 
 .header {
     background: rgba(255, 144, 14, 0.1);
@@ -43,6 +50,7 @@ nav li {
 }
 
 
+/*----banner part starts from here--*/
 
 .banner-title {
     margin-left: 240px;
@@ -83,7 +91,11 @@ nav li {
     margin-top: 40px;
 }
 
-/*....-------list section--*/
+/*------banner part---ended ---*/
+
+
+/*....-------list parts of main section--*/
+
 .list-section {
     display: flex;
     margin: 50px 150px 70px 170px;
@@ -135,7 +147,11 @@ nav li {
     border: none;
 }
 
-/*--features love and enjoy--version..section---*/
+/*----list parts of main section ended here--*/
+
+
+/*--features love and enjoy--version. of main.section---*/
+
 .feature-section {
     display: flex;
     padding: 25px 120px 25px 120px;
@@ -210,7 +226,10 @@ nav li {
     color: #FFFFFF;
 }
 
-/*----fact parts----*/
+
+/*----features love and enjoy--version main section ended here---*/
+
+/*----facts parts of main section starts from here----*/
 .facts {
     padding: 25px 120px 25px 120px;
 }
@@ -232,7 +251,9 @@ nav li {
     margin-bottom: 70px;
 }
 
-/*----award sections and client related---*/
+
+/*----award sections and client related section starts from here---*/
+
 .award-section {
     display: flex;
     justify-content: space-around;
@@ -247,6 +268,8 @@ nav li {
 
 .awards:hover {
     background-color: #FF1493;
+    transform: translate(30px, 18px);
+
 }
 
 .awards img {
@@ -273,11 +296,11 @@ nav li {
 }
 
 /*--footer parts start from here--*/
+
+
 .footer {
     padding: 50px 120px 50px 120px;
 }
-
-
 
 .footer-title {
     font-style: normal;
@@ -306,10 +329,14 @@ nav li {
 }
 
 .sponsor-image {
-    -webkit-filter: grayscale(100%);
+
     filter: grayscale(100%);
     margin-bottom: 60px;
+
 }
+
+
+/*---an extra section for bonus part----*/
 
 .member-section {
     display: flex;
@@ -317,10 +344,6 @@ nav li {
     text-align: center;
     align-items: center;
     margin-bottom: 50px;
-}
-
-.icon-image {
-    display: flex;
 }
 
 .member-image {
@@ -343,6 +366,13 @@ nav li {
 
 }
 
+.icon-image {
+    display: flex;
+}
+
+
+/*---copy right of footer parts---*/
+
 .copy-right {
     background: #FFF4E7;
     border-radius: 8px;
@@ -354,6 +384,7 @@ nav li {
     color: #424242;
 
 }
+
 
 
 /*----Responsive design for mobile only---*/
@@ -504,4 +535,8 @@ nav li {
         flex-direction: column;
 
     }
+
+
 }
+
+/*CSS ends here---*/
