@@ -390,6 +390,9 @@ nav li {
 /*----Responsive design for mobile only---*/
 
 @media only screen and (max-width:576px) {
+
+    /*header parts---*/
+
     .header {
         padding-left: 7em;
         padding-right: 7em;
@@ -416,6 +419,8 @@ nav li {
         margin-left: 0;
         padding-bottom: 15px;
     }
+
+    /*---banner parts--*/
 
     .banner-title {
         width: 100%;
@@ -450,6 +455,8 @@ nav li {
         margin-top: 2em;
     }
 
+    /*----list section---*/
+
     .list-section {
         flex-direction: column;
         margin: 40px 90px;
@@ -465,6 +472,8 @@ nav li {
         margin-top: 3vh;
     }
 
+    /*----feature section---*/
+
     .feature-section {
         flex-direction: column;
         padding: 50px 50px 0 50px;
@@ -478,6 +487,8 @@ nav li {
         margin-left: 0;
     }
 
+    /*---facts part----*/
+
     .facts {
         padding: 2em;
     }
@@ -490,16 +501,21 @@ nav li {
         margin-right: 1em;
     }
 
+    /*----award parts---*/
+
     .award-section {
         flex-direction: column;
         align-items: center;
         gap: 1.5em;
     }
 
+    /*---footer parts--*/
+
     .footer {
         padding: 3em;
 
     }
+
 
     .footer-title {
         margin-left: 3vw;
@@ -520,6 +536,8 @@ nav li {
     .sponsor-image {
         margin-top: 2vh;
     }
+
+    /*---extra bonus part---*/
 
     .member-title {
         align-items: center;
